@@ -2,7 +2,7 @@
 
 Contributors: halt2965
 Donate link: http://web.lugn-design.com/
-Tags: Category,Link,prev,next,post,past,single,prevpost,nextpost,pn,
+Tags: Category,Link,prev,next,post,past,single,prevpost,nextpost,pn
 Requires at least: 3.0.0
 Tested up to: 3.3
 Stable tag: 1.2
@@ -17,24 +17,30 @@ Write out the article about a specific category link.
 
 1. Upload `SpecificCategoryPNLink` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the ‘Plugins’ menu in WordPress
-3. Place `<?php specific_cat_link($cat,TRUE); ?>` in your templates
+3. Place `<?php specific_cat_link($cat_array,TRUE); ?>` or `<?php specific_cat_link($cat_id,FALSE); ?>` in your templates
 
-more detail(詳しくはここ参照)
-http://web.lugn-design.com/web/%E3%80%90wordpress%E3%80%91%E7%89%B9%E5%AE%9A%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA%E3%81%AE%E3%81%BF%E3%81%AE%E5%89%8D%E5%BE%8C%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B/
+more detail. 
+詳しくはプラグインのページを参照
+http://goo.gl/wbP2X
 
 
 == Frequently Asked Questions ==
-
-= A question that someone might have =
 
 
 == Changelog ==
 
 = 1.2 =
 * Bug fix.
+specific_cat_link関数で引数をfalseにした場合正常に動かなかった問題を解決。
 
+= 1.0 =
+公開
 
 == Upgrade Notice ==
 
 
 == Arbitrary section ==
+specific_cat_linkやexclude_post_id関数注意点。
+第2引数がtrueの場合は第1引数はカテゴリの配列。
+第2引数がfalseの場合は第1引数はカテゴリのID(複数可)。
+違うと動かないので注意して下さい。
