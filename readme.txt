@@ -11,7 +11,7 @@ Write out the article about a specific category link.
 
 == Description ==
 > Write out the article about a specific category link.   <br />
-> 標準で用意されていない特定カテゴリの前後の記事リンクを出力します。
+> 標準で用意されていない記事の"特定カテゴリのみの前後リンク"を出力します。
 
 == Installation ==
 
@@ -47,3 +47,9 @@ specific_cat_link関数で引数をfalseにした場合正常に動かなかっ�
 > 第2引数がtrueの場合は第1引数はカテゴリの配列。   <br />
 > 第2引数がfalseの場合は第1引数はカテゴリのID(複数可)。   <br />
 > 違うと動かないので注意して下さい。
+
+> English.
+> "specific_cat_link" and "exclude_post_id" Notes function.
+> If the second argument is true, the first argument is an array of categories.
+> If the second argument is false, the first argument is the ID of the category (s).
+> Please note it and move differently.
