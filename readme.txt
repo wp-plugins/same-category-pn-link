@@ -25,7 +25,7 @@ http://goo.gl/wbP2X
 
 
 == Frequently Asked Questions ==
-
+ 
 
 == Changelog ==
 
@@ -37,7 +37,7 @@ specific_cat_link関数で引数をfalseにした場合正常に動かなかっ�
 公開
 
 == Upgrade Notice ==
-
+ 
 
 == Arbitrary section ==
 > specific_cat_linkやexclude_post_id関数の注意点。
