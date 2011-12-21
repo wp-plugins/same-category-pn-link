@@ -10,8 +10,8 @@ Stable tag: 1.2
 Write out the article about a specific category link.
 
 == Description ==
-Write out the article about a specific category link.
-標準で用意されていない特定カテゴリの前後の記事リンクを出力します。
+> Write out the article about a specific category link.
+> 標準で用意されていない特定カテゴリの前後の記事リンクを出力します。
 
 == Installation ==
 
@@ -40,7 +40,10 @@ specific_cat_link関数で引数をfalseにした場合正常に動かなかっ�
 
 
 == Arbitrary section ==
-specific_cat_linkやexclude_post_id関数注意点。
-第2引数がtrueの場合は第1引数はカテゴリの配列。
-第2引数がfalseの場合は第1引数はカテゴリのID(複数可)。
-違うと動かないので注意して下さい。
+> specific_cat_linkやexclude_post_id関数の注意点。
+> specific_cat_link($cat,$par);
+> exclude_post_id($cat,$par);
+
+> 第2引数がtrueの場合は第1引数はカテゴリの配列。
+> 第2引数がfalseの場合は第1引数はカテゴリのID(複数可)。
+> 違うと動かないので注意して下さい。
