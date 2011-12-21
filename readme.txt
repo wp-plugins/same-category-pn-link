@@ -48,8 +48,8 @@ specific_cat_link関数で引数をfalseにした場合正常に動かなかっ�
 > 第2引数がfalseの場合は第1引数はカテゴリのID(複数可)。   <br />
 > 違うと動かないので注意して下さい。
 
-> English.
-> "specific_cat_link" and "exclude_post_id" Notes function.
-> If the second argument is true, the first argument is an array of categories.
-> If the second argument is false, the first argument is the ID of the category (s).
+> English.   <br />
+> "specific_cat_link" and "exclude_post_id" Notes function.   <br />
+> If the second argument is true, the first argument is an array of categories.   <br />
+> If the second argument is false, the first argument is the ID of the category (s).   <br />
 > Please note it and move differently.
