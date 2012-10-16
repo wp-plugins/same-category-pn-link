@@ -11,7 +11,7 @@ Write out the article about a specific category link.
 
 == Description ==
 > Write out the article about a specific category link.   
-> 標準で用意されていない記事の"特定カテゴリのみの前後リンク"を出力します。
+> "特定カテゴリのみの前後リンク"を出力します。
 
 == Installation ==
 
@@ -30,9 +30,9 @@ http://goo.gl/wbP2X
 == Changelog ==
 
 = 1.2 =
-処理の見直し。
 引数をカテゴリのID(1,2,3,...) やオブジェクトのどちらでも良いように変更。
 
+= 1.3 =
 * Bug fix.
 specific_cat_link関数で引数をfalseにした場合正常に動かなかった問題を解決。
 

@@ -2,7 +2,7 @@
 /*
 Plugin Name: Specific Category PN Link
 Plugin URI: http://craft-notes.com/web/wordpress/specific-category-pn-link/
-Description: Write out the article about a specific category link. 標準で用意されていない"特定カテゴリのみの前後リンク"を出力します。
+Description: Write out the article about a specific category link. "特定カテゴリのみの前後リンク"を出力します。
 Version: 1.3
 Author: Halt
 Author URI: http://craft-notes.com/
